@@ -51,6 +51,96 @@
         <!-- Form which defines the first page/section of the "traditional" DSpace submission process,
              often used when depositing normal Items (i.e. Items which are not Entities). -->
         <form name="traditionalpageone">
+
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>file</dc-element>
+                    <dc-qualifier>identifier</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Identifier</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>file</dc-element>
+                    <dc-qualifier>name</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Title</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>file</dc-element>
+                    <dc-qualifier>dates</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Dates</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>file</dc-element>
+                    <dc-qualifier>description</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Description</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>collection</dc-element>
+                    <dc-qualifier>name</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Collection</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>series</dc-element>
+                    <dc-qualifier>name</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Series</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>ancbs</dc-schema>
+                    <dc-element>subseries</dc-element>
+                    <dc-qualifier>name</dc-qualifier>
+                    <repeatable>false</repeatable>
+                    <label>Subseries</label>
+                    <input-type>onebox</input-type>
+                    <hint></hint>
+                    <required></required>
+                </field>
+            </row>
+
+
+
+
+            <!--
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
@@ -143,7 +233,6 @@
                     <dc-schema>dc</dc-schema>
                     <dc-element>identifier</dc-element>
                     <dc-qualifier></dc-qualifier>
-                    <!-- An input-type of qualdrop_value MUST be marked as repeatable -->
                     <repeatable>true</repeatable>
                     <label>Identifiers</label>
                     <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
@@ -181,6 +270,7 @@
                     <required></required>
                 </field>
             </row>
+-->
         </form>
 
         <!-- Form which defines the second page/section of the "traditional" DSpace submission process,
